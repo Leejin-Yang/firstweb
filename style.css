@@ -1,15 +1,12 @@
 body {
   margin: 0;
+  font-family: "Garamond", serif;
 }
    a {
      color: black;
-     text-decoration: none;
    }
    #active {
      color: orange;
-   }
-   .saw {
-     color: gray;
    }
    h1 {
      font-size: 45px;
@@ -22,17 +19,24 @@ body {
      border-right: 1px solid gray;
      width: 100px;
      margin: 0;
-     padding: 20px;
+     padding: 20px 20px 20px 33px;
    }
    #grid {
      display: grid;
      grid-template-columns: 150px 1fr;
    }
-   #grid ol {
-     padding-left: 33px;
-   }
    #article {
      padding-left: 20px;
+   }
+   h2 {
+     background-color: coral;
+     text-align: center;
+   }
+   .button {
+     background-color: orange;
+     border: 1px solid gray;
+     width: 75px;
+     font-family: "Garamond", serif;
    }
    @media(max-width: 800px) {
      #grid {
@@ -42,3 +46,4 @@ body {
      ol {
        border-right: none;
    }
+}
